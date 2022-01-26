@@ -2,8 +2,7 @@
 
 let
   wallpaper = builtins.fetchurl {
-      url = "https://images.hdqwalls.com/wallpapers/mountains-lowpoly-ph.jpg";
-      sha256 = "1qbmii9slrxayi2lcf7i4ik8kkqf33j4msnf4pzjh0r7v05gbab7";
+      url = "https://brokenpanda.net/wp-content/uploads/1589567943_270_Abstract-Minimalist-Wallpapers-2020.jpg";
     };
 
    ws1 = "";
@@ -28,10 +27,10 @@ in
 		
     window.border = 0;
 		
-    gaps = {
-      inner = 2;
-      outer = 0;
-    };
+    #gaps = {
+    #  inner = 2;
+    #  outer = 0;
+    #};
     
     keybindings = lib.mkOptionDefault {
       "${modifier}+Return" = "exec ${pkgs.alacritty}/bin/alacritty";

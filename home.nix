@@ -21,27 +21,19 @@ in
     neofetch
     feh
     gnupg
-    netcat
-    xfce.thunar
 
      # Tools
     i3lock-fancy
-    pavucontrol
     arandr
-    gnome3.networkmanagerapplet
     libnotify
 
     # Dev tools
     any-nix-shell
     gitAndTools.gitflow
     git-lfs
-    nodejs
-    #maven
-    jdk11
-    jetbrains.idea-ultimate
-    jetbrains.clion
     curl
     p7zip
+    nodejs
 
     # Fonts
     font-awesome
@@ -49,7 +41,6 @@ in
     fira-code-symbols
 
     # Fun
-    spotify
     thunderbird
     flameshot
   ];
@@ -70,8 +61,6 @@ in
 
     git = {
       enable = true;
-      userName = "Valentin Chassignol";
-      userEmail = "Vinetosdev"+"@"+"gmail"+"."+"com";
     };
   };
 

@@ -10,7 +10,7 @@
       title = "Terminal";
     };
 
-    background_opacity = 0.85;
+    background_opacity = 0.2;
 
     font = {
       normal.family = "Fira Code";
@@ -22,37 +22,37 @@
 
     shell = {
       program = "${pkgs.fish}/bin/fish";
-      args = [ "--init-command" "echo; neofetch --disable packages; echo" ];
+      args = [ "--init-command" "echo; neofetch --disable packages memory gpu; echo" ];
     };
 
+    # Colors from https://github.com/alebelcor/alacritty-snazzy
     colors = {
       primary = {
-        background = "#2D2A2E";
-        foreground = "#FCFCFA";
+        background = "#282a36";
+        foreground = "#eff0eb";
       };
       cursor = {
-        text   = "0xFF261E";
-        cursor = "0xFF261E";
+        cursor = "#97979b";
       };
       normal = {
-        black   = "#15191F";
-        red     = "#F865A5";
-        green   = "#29EDBE";
-        yellow  = "#FFC457";
-        blue    = "#33AEFF";
-        magenta = "#AF54FF";
-        cyan    = "#29EDBE";
-        white   = "#B3B7BD";
+        black   = "#282a36";
+        red     = "#ff5c57";
+        green   = "#5af78e";
+        yellow  = "#f3f99d";
+        blue    = "#57c7ff";
+        magenta = "#ff6ac1";
+        cyan    = "#9aedfe";
+        white   = "#f1f1f0";
       };
       bright = {
-        black   = "#15191F";
-        red     = "#FF598B";
-        green   = "#1FE0A6";
-        yellow  = "#FFB630";
-        blue    = "#33AEFF";
-        magenta = "#B467F9";
-        cyan    = "#2BCAFC";
-        white   = "#ECF2F2";
+        black   = "#f1f1f0";
+        red     = "#ff5c57";
+        green   = "#5af78e";
+        yellow  = "#f3f99d";
+        blue    = "#57c7ff";
+        magenta = "#ff6ac1";
+        cyan    = "#9aedfe";
+        white   = "#eff0eb";
       };
     };
   };

@@ -18,11 +18,11 @@
     "*" = {
       font = "FiraCode Nerd Font Medium 12";
       
-      bg0 = mkLiteral "#2E3440";
-      bg1 = mkLiteral "#3B4252";
-      fg0 = mkLiteral "#D8DEE9";
+      bg0 = mkLiteral "#222222";
+      bg1 = mkLiteral "#333333";
+      fg0 = mkLiteral "#d65db1";
 
-      accent-color = mkLiteral "#88C0D0";
+      accent-color = mkLiteral "#d65db1";
       urgent-color = mkLiteral "#EBCB8B";
 
       background-color = mkLiteral "transparent";
